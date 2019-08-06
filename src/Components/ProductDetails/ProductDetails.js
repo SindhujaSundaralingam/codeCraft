@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image, Row, Col } from 'react-bootstrap';
-import { PlusIcon } from '../../Assets'
+import { PlusIcon } from '../../assets'
 import { ShadesCarousel } from '../ShadesCarousel'
 import { ModesList } from '../ModesList'
 import { IntensitySlider } from '../IntensitySlider'

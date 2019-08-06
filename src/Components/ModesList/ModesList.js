@@ -4,7 +4,7 @@ import { observer } from 'mobx-react'
 import {
     TickIcon,
     TickGreyIcon
-} from '../../Assets'
+} from '../../assets'
 import { state } from './state'
 import './style.css'
 

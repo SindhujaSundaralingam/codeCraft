@@ -5,7 +5,7 @@ import {
     Lock,
     Thermostat,
     Tv
-} from '../../Assets'
+} from '../../assets'
 
 class State {
     productList = [
