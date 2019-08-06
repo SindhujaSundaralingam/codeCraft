@@ -3,7 +3,7 @@ import {
     MorningIcon,
     DayIcon,
     NightIcon
-} from '../../assets'
+} from '../../Assets'
 
 class State {
     modeList = [

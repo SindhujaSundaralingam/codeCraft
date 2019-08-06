@@ -1,9 +1,9 @@
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../../fonts/Montserrat/Montserrat-Bold.ttf');
+  src: url('../../Fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://Fonts.googleapis.com/css?family=Roboto:400,500,700');
 * { box-sizing: border-box }
 body { margin: 0; padding: 0; font-family: 'Roboto', sans-serif; }
 

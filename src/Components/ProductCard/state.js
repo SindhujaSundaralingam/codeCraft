@@ -1,47 +1,47 @@
 import { observable, decorate } from 'mobx'
 import {
-    lamp,
-    ac,
-    lock,
-    thermostat,
-    tv,
+    Lamp,
+    Ac,
+    Lock,
+    Thermostat,
+    Tv,
     Arrow
-} from '../../assets'
+} from '../../Assets'
 
 class State {
     productList = [
         {
             name: 'Bed lamp',
             category: 'in Bedroom',
-            image: lamp,
+            image: Lamp,
             selected: true,
             activeImage: Arrow,
         },
         {
             name: 'Noria AC',
             category: 'in Bedroom',
-            image: ac,
+            image: Ac,
             selected: false,
             activeImage: Arrow,
         },
         {
             name: 'Door lock',
             category: 'in Home office',
-            image: lock,
+            image: Lock,
             selected: false,
             activeImage: Arrow,
         },
         {
             name: 'Lg tv',
             category: 'in Living room',
-            image: tv,
+            image: Tv,
             selected: false,
             activeImage: Arrow,
         },
         {
             name: 'Thermostat',
             category: 'in Bedroom',
-            image: thermostat,
+            image: Thermostat,
             selected: false,
             activeImage: Arrow,
         },

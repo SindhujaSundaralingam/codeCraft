@@ -1,9 +1,9 @@
-import lamp from './lamp.png'
-import ac from './ac.png'
-import lock from './lock.png'
-import thermostat from './thermostat.png'
-import tv from './tv.png'
-import plus from './plus-dk.png'
+import Lamp from './lamp.png'
+import Ac from './ac.png'
+import Lock from './lock.png'
+import Thermostat from './thermostat.png'
+import Tv from './tv.png'
+import PlusIcon from './plus-dk.png'
 import MorningIcon from './morning-wh.png'
 import DayIcon from './day-dk.png'
 import NightIcon from './night-dk.png'
@@ -13,12 +13,12 @@ import Arrow from './chevron-right.png'
 
 
 export {
-    lamp,
-    ac,
-    lock,
-    thermostat,
-    tv,
-    plus,
+    Lamp,
+    Ac,
+    Lock,
+    Thermostat,
+    Tv,
+    PlusIcon,
     MorningIcon,
     DayIcon,
     NightIcon,

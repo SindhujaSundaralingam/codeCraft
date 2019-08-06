@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import { observer } from 'mobx-react'
-import { TickIcon } from '../../assets'
+import { TickIcon } from '../../Assets'
 import { state } from './state'
 import './style.scss'
 

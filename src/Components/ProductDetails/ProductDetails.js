@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image, Row, Col } from 'react-bootstrap';
-import { plus } from '../../assets'
+import { PlusIcon } from '../../Assets'
 import { ShadesCarousel } from '../ShadesCarousel'
 import { ModesList } from '../ModesList'
 import { IntensitySlider } from '../IntensitySlider'
@@ -34,7 +34,7 @@ class ProductDetails extends React.PureComponent {
             <div className="content">
                 <Row className="header-wrapper">
                     <Col className="col col-8"><span className="header"> Devices </span></Col>
-                    <Col className="col col-4 plus-icon-wrapper"><Image src={plus} className="plus-icon"/></Col>
+                    <Col className="col col-4 plus-icon-wrapper"><Image src={PlusIcon} className="plus-icon"/></Col>
                 </Row>
                 <Row className="product-title-wrapper">
                     <Col className="product-title col-lg-8"><span>Bed Lamp</span></Col>
