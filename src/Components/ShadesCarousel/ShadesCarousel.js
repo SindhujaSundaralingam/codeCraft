@@ -10,7 +10,9 @@ class ShadesCarouselView extends React.PureComponent {
     toggleCheck = (shade) => {
         state.shades.forEach((list) => {
             if(list.shade === shade) {
-                list.checked = !list.checked
+                list.checked = true
+            } else {
+                list.checked = false
             }
         })
     }

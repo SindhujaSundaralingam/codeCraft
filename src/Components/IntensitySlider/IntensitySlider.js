@@ -8,7 +8,7 @@ class IntensitySlider extends React.PureComponent {
     constructor(props) {
         super(props)
         this.state = {
-            value: 0
+            value: 65
         }
     }
    

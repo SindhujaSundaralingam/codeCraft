@@ -24,7 +24,7 @@ class ModesListView extends React.PureComponent {
         const image = active ? TickIcon : TickGreyIcon
         return (
             <Row className={"mode-container "+status} onClick={() => this.toggleCard(mode)}>
-                <Col className="col-1"><Image src={icon} /></Col>
+                <Col className="col-1">{icon}</Col>
                 <Col className="col-5"><span className={"mode " + status}>{mode}</span></Col>
                 <Col className="col-3 mode-percentage-wrapper"><span className={"mode-percentage " + status}>{percentage}</span></Col>
                 <Col className="col-2"><Image src={image} /></Col>

@@ -1,26 +1,27 @@
+import React from 'react'
 import { observable, decorate } from 'mobx'
 import {
     MorningIcon,
     DayIcon,
     NightIcon
-} from '../../assets'
+} from '../../Icons'
 
 class State {
     modeList = [
         {
-            icon: MorningIcon,
+            icon: <MorningIcon />,
             mode: "Morning",
             percentage: "50%",
             active: true
         },
         {
-            icon: DayIcon,
+            icon: <DayIcon />,
             mode: "Day",
             percentage: "30%",
             active: false
         },
         {
-            icon: NightIcon,
+            icon: <NightIcon />,
             mode: "Night",
             percentage: "100%",
             active: false
