@@ -1,3 +1,13 @@
+### CodeCraft
+
+### `yarn install`
+
+Make sure to run command 'yarn install' before running the code.
+
+### `yarn start`
+
+Runs the app in development mode
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
