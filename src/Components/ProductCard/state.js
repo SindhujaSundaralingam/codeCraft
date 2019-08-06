@@ -4,8 +4,7 @@ import {
     Ac,
     Lock,
     Thermostat,
-    Tv,
-    Arrow
+    Tv
 } from '../../Assets'
 
 class State {
@@ -15,35 +14,30 @@ class State {
             category: 'in Bedroom',
             image: Lamp,
             selected: true,
-            activeImage: Arrow,
         },
         {
             name: 'Noria AC',
             category: 'in Bedroom',
             image: Ac,
             selected: false,
-            activeImage: Arrow,
         },
         {
             name: 'Door lock',
             category: 'in Home office',
             image: Lock,
             selected: false,
-            activeImage: Arrow,
         },
         {
             name: 'Lg tv',
             category: 'in Living room',
             image: Tv,
             selected: false,
-            activeImage: Arrow,
         },
         {
             name: 'Thermostat',
             category: 'in Bedroom',
             image: Thermostat,
             selected: false,
-            activeImage: Arrow,
         },
     ]
 }

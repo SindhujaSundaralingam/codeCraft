@@ -178,7 +178,8 @@ aside.design1 .overlay {
     flex: 1;
     height: 120px;
     padding: 0 8px;
-    align-items: flex-end
+    align-items: center;
+    justify-content: flex-end;
   }
 
   .design1 nav li.active .label-wrap {
@@ -210,10 +211,10 @@ aside.design1 .overlay {
   }
 
   .design1 nav li .label-wrap label {
-    justify-self: flex-end;
     margin-top: auto;
     font-size: 11px;
     letter-spacing: 2.2px;
+    margin-bottom: 0;
   }
 
   .design1 nav li .label-wrap span {
@@ -284,8 +285,10 @@ aside.design1 .overlay {
   }
 
   .design1 nav li .label-wrap label {
-    justify-self: flex-end;
     margin-top: auto;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
   }
 
   .design1 nav li .arrow {

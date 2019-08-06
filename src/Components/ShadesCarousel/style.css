@@ -1,0 +1,64 @@
+.shades {
+  margin: 0px 30px 30px 0px
+}
+
+.checkbox {
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  width: 32px;
+  display: flex;
+}
+
+.checkbox.checked {
+  height: 48px;
+  width: 48px;
+}
+
+.checkbox.checked img {
+  display: block
+}
+
+.checkbox img {
+  display: none;
+}
+
+.checkbox.red {
+  background: #FF4563;
+  box-shadow: 0 27px 27px 0 rgba(0,0,0,0.15);
+}
+
+.checkbox.violet {
+  background: #8245E6;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+}
+
+.checkbox.skyblue {
+  background: #4AC0E0;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+}
+
+.checkbox.blue {
+  background: #1089EB;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+}
+
+.checkbox.purple {
+  background: #C791CD;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+}
+
+@media only screen and (min-width: 768px) {
+  .shades {
+    margin: 0px;
+  }
+
+  .shades-wrapper {
+    justify-content: space-evenly;
+  }
+
+  .container {
+    margin: 28px 0;
+  }
+}

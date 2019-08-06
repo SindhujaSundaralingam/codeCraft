@@ -6,7 +6,7 @@ import {
     TickGreyIcon
 } from '../../Assets'
 import { state } from './state'
-import './style.scss'
+import './style.css'
 
 class ModesListView extends React.PureComponent {
     toggleCard = (mode) => {

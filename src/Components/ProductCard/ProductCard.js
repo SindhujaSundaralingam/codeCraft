@@ -15,7 +15,7 @@ class ProductCardView extends React.PureComponent {
         })
     }
     renderProductCards = (product) => {
-        const { name, category, image, selected, activeImage} = product
+        const { name, category, image, selected } = product
         const classNameValue = selected ? 'active' : ''
         return (
             <li class={"item "+classNameValue} onClick={() => this.toggelCard(name)}>
