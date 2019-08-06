@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../../fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+.content {
+    margin-left: 180px;
+    width: 55%;
+}
+
+.plus-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.header {
+    position: relative;
+    text-transform: uppercase;
+    top: 80px;
+    font-size: 40px;
+    color: #986363;
+    letter-spacing: 4px;
+    z-index: 1;
+    font-family: Montserrat-Bold;
+    right: 108px;
+}
+
+.plus-icon-wrapper {
+    position: relative;
+    text-align: right;
+    top: 33px;
+    right: 20px;
+}
+
+.section-title {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #AC6CFF;
+    line-height: 0.1em;
+    margin: 50px 0 31px;
+}
+
+.section-title span {
+    text-transform: uppercase;
+    font-family: Montserrat-Bold;
+    font-size: 11px;
+    color: #AC6CFF;
+    letter-spacing: 1.1px;
+    background: #fff;
+    padding-right: 9px;
+}
+
+.product-title-wrapper {
+    margin-top: 120px;
+    align-items: center;
+}
+
+.product-title {
+    font-size: 25px;
+    font-family: Montserrat-Bold;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 20px 25px rgba(0,0,0,0.15);
+    line-height: 26px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+.toggle.active .toggle-inner {
+    left: 5px;
+}
+
+.toggle-outer {
+    position: relative;
+    width: 42px;
+    background: #000000;
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,0.15);
+    border-radius: 60px;
+    height: 24px;
+}
+
+.toggle-inner {
+    position: relative;
+    height: 14px;
+    width: 14px;
+    background: #FFFFFF;
+    box-shadow: 0 12px 18px 0 rgba(0,0,0,0.10);
+    border-radius: 60px;
+    left: 23px;
+    top: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        margin-left: 260px;
+    }
+    .header-wrapper {
+        position: relative;
+        top: 83px;
+    }
+    .plus-icon-wrapper { 
+        top: 0px;
+    }
+    .plus-icon {
+        height: 56px;
+        background-image: linear-gradient(-135deg, #DEFFC9 0%, #A3F8FF 100%);
+        box-shadow: 0 15px 30px 0 rgba(234,252,223,0.40);
+        width: 56px;
+    }
+    .header {
+        top: 16px;
+        font-size: 48px;
+        letter-spacing: 5px;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        margin-left: 460px;
+        z-index: 0;
+    }
+
+    .product-title {
+        font-size: 32px;
+        letter-spacing: 5.12px;
+        text-shadow: 0 20px 25px rgba(0,0,0,0.15);
+    }
+
+    .toggle {
+        align-self: center;
+    }
+
+    .section-title {
+        margin: 66px 0 50px;
+    }
+    .section-title span {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        padding: 0px 14px;
+    }
+}
